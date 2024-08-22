@@ -22,12 +22,12 @@
 
 ```powershell
 Get-ConfigFile.ps1 -DownloadSource <string> -Destination <string> [-Verbose]
-
-Parameters
--DownloadSource (string): Mandatory. The UNC path or HTTP(S) URL of the config file location. This should include the filename and extension.
--Destination (string): Mandatory. The local path where the config file will be stored. This should also include the filename and extension.
--Verbose (switch): Optional. Provides detailed output during the download/copy process.
 ```
+
+### Parameters
+- DownloadSource (string): Mandatory. The UNC path or HTTP(S) URL of the config file location. This should include the filename and extension.
+- Destination (string): Mandatory. The local path where the config file will be stored. This should also include the filename and extension.
+- Verbose (switch): Optional. Provides detailed output during the download/copy process.
 
 ### Example
 ```powershell
